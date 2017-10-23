@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dk.faras.galgeleg.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/galge1" />
+
+    <Button
+
+        android:id="@+id/knap1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hjælp"
+
+        android:layout_marginBottom="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:id="@+id/knap2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="Spil"
+        android:layout_above="@+id/knap3"
+        android:layout_alignParentStart="true">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/knap3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Indstiling"
+
+
+        android:layout_above="@+id/knap1"
+        android:layout_alignParentStart="true">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:background="?attr/colorButtonNormal"
+        android:text="Velkommen til Galgeleg! "
+        android:textSize="30dp" />
+</RelativeLayout>
+
+
